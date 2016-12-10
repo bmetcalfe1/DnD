@@ -93,14 +93,11 @@
 
 	function changeColor() {
 	//add an event listener that calls changeColor() when the menu selection changes
-
 		document.getElementById('colorChanger').addEventListener('change', changeColor);
 	    //store the menu's value (which is the value of the chosen option)
 	    var color = document.getElementById('colorChanger').value;
-
 	    //store the list of all <li> elements
 	    var list = document.getElementsByTagName('li');
-
 	    //loop through the list and apply the color to each <li> element
 	    var len = list.length;     
 	    for (var i=0; i<len; i++) {
@@ -119,11 +116,18 @@
 		var newContent = title;
 		newItem.innerHTML = newContent;
 
-		ul.appendChild(newItem);
-		changeColor();
-		items = document.querySelectorAll('.projects li');
-		addListeners();
-		form.elements['project'].value = '';
+		var list = document.getElementsByTagName('li');
+		if (list.length < 10) {
+			ul.appendChild(newItem);
+			changeColor();
+			items = document.querySelectorAll('.projects li');
+			addListeners();
+			form.elements['project'].value = '';
+		}
+		else {
+			console.log("max 10 choices!");
+		}
+		
 	}
 
 	addListeners();
