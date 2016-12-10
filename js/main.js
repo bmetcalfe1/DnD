@@ -1,5 +1,4 @@
 (function() {
-	console.log('working!');
 	var items = document.querySelectorAll('.projects li');
 	var el = null;
 	var del = document.querySelector('.delete');
@@ -92,6 +91,23 @@
 		});
 	}
 
+	function changeColor() {
+	//add an event listener that calls changeColor() when the menu selection changes
+
+		document.getElementById('colorChanger').addEventListener('change', changeColor);
+	    //store the menu's value (which is the value of the chosen option)
+	    var color = document.getElementById('colorChanger').value;
+
+	    //store the list of all <li> elements
+	    var list = document.getElementsByTagName('li');
+
+	    //loop through the list and apply the color to each <li> element
+	    var len = list.length;     
+	    for (var i=0; i<len; i++) {
+	        list[len-1].style.color = color;
+	    }
+	}
+
 	function addItem(e) {
 		e.preventDefault();
 		var newItem = document.createElement('li');
@@ -99,17 +115,12 @@
 		if (title === '') {
 			return false;
 		}
-		var ownerIndex = form.elements['owner'].selectedIndex;
-		var owner = form.elements['owner'].options[ownerIndex].value;
-		var monthIndex = form.elements['month'].selectedIndex;
-		var month = form.elements['month'].options[monthIndex].value;
-		var dayIndex = form.elements['day'].selectedIndex;
-		var day = form.elements['day'].options[dayIndex].value;
 
-		var newContent = title + ' - ' + owner + ' - ' + month + ' ' + day;
+		var newContent = title;
 		newItem.innerHTML = newContent;
 
 		ul.appendChild(newItem);
+		changeColor();
 		items = document.querySelectorAll('.projects li');
 		addListeners();
 		form.elements['project'].value = '';
