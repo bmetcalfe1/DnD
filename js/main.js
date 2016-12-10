@@ -26,10 +26,20 @@
 	add.addEventListener('click', addItem, false);
 
 	function dragStart(e) {
+		console.log(e);
 		this.style.opacity = '0.4';
 		el = this;
 		e.dataTransfer.effectAllowed = 'move';
-		e.dataTransfer.setData('text/html', this.innerHTML);
+
+		// var classToTransfer = "<p class=" + " " + "></p>"; //where do i get color from?
+		var className = e.srcElement.className;
+		console.log(className);
+		var classToTransfer = '<span class="' + className + '">' + this.innerHTML + '</span>';
+		console.log(classToTransfer);
+
+		// e.dataTransfer.setData('text/html', this.innerHTML);
+		e.dataTransfer.setData('text/html', classToTransfer);
+		console.log(e.dataTransfer);
 	}
 
 	function dragOver(e) {
@@ -53,8 +63,15 @@
 			e.stopPropagation();
 		}
 		if (el != this) {
+			console.log(this);
 			el.innerHTML = this.innerHTML;
+
 			this.innerHTML = e.dataTransfer.getData('text/html');
+			console.log(this.innerHTML);
+			// this.style.color;
+			// class already green here
+			// NEXT LINE HERE - CLASS
+			// THIS IS WHERE IT GETS CALLED
 		}
 		return false;
 	}
@@ -102,12 +119,16 @@
 		var newContent = title;
 		newItem.innerHTML = newContent;
 		var color = document.getElementById('colorChanger').value;
-		newItem.style.color = color;
+		console.log(color);
+		// newItem.style.color = color;  //stays at 4th element
+		newItem.classList.add(color); //stays at 4th element
 
 		var list = document.getElementsByTagName('li');
 		if (list.length < 10) {
+			console.log(newItem);
 			ul.appendChild(newItem);
 			items = document.querySelectorAll('.projects li');
+			console.log(items);
 			addListeners();
 			form.elements['project'].value = '';
 		}
