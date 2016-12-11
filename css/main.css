@@ -10,7 +10,7 @@
 }
 
 body {
-	background-color: #b3ffff;
+	background: #b3ffff;
 	padding: 0;
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
@@ -30,6 +30,9 @@ header h1 {
 	width: 800px;
 	color: #fff;
 	margin: 15px auto;
+	text-align: center;
+}
+h2 {
 	text-align: center;
 }
 .wrapper {
@@ -95,13 +98,13 @@ button:active {
 	text-align: center;
 }
 .delete {
-	width: 440px;
 	height: 30px;
-	border: 1px solid #ccc;
-	line-height: 30px;
-	padding-left: 10px;
+	width: 50%;
+	margin: 0 auto;
+	border: 5px solid white;
 	margin-top:40px;
 	text-align: center;
+	background-color: #ff0000;
 }
 .vanilla {
 	background-color: #ffffcc;
@@ -132,4 +135,23 @@ button:active {
 }
 .rum {
 	background-color: #bf8040;
+}
+.cone {
+  /*z-index: 5;
+  position: relative;*/
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 85px solid transparent;
+  border-right: 85px solid transparent;
+  border-top: 190px solid #DDBB74;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.circle {
+	width: 25%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
 }

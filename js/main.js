@@ -113,6 +113,7 @@
 		newItem.innerHTML = newContent;
 		var color = document.getElementById('colorChanger').value;
 		newItem.classList.add(color);
+		newItem.classList.add("circle");
 
 		var list = document.getElementsByTagName('li');
 		if (list.length < 10) {
