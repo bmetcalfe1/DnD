@@ -111,9 +111,11 @@
 		var newItem = document.createElement('li');
 		var newContent = title;
 		newItem.innerHTML = newContent;
+		// newItem.innerHTML = newContent + '<div class="circle"><div class="burst-12"></div></div>';
 		var color = document.getElementById('colorChanger').value;
 		newItem.classList.add(color);
-		newItem.classList.add("circle");
+		newItem.classList.add('circle');
+		console.log(newItem);
 
 		var list = document.getElementsByTagName('li');
 		if (list.length < 10) {

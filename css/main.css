@@ -67,7 +67,6 @@ li {
 	line-height: 50px;
 	border: 1px solid #ccc;
 	margin-bottom: 3px;
-	padding-left: 10px;
 }
 input {
 	width: 250px;
@@ -99,7 +98,7 @@ button:active {
 }
 .delete {
 	height: 30px;
-	width: 50%;
+	width: 75%;
 	margin: 0 auto;
 	border: 5px solid white;
 	margin-top:40px;
