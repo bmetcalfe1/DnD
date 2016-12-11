@@ -12,18 +12,12 @@ html, body{
 	min-height: 100%;
 }
 body {
-	background: #b3ffff;
+	background: #81F4E1;
 }
 header {
 	width: 100%;
 	padding: 15px 0;
-	background: #1c1c1c;
-	background: -moz-linear-gradient(top,  #1c1c1c 0%, #000000 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1c1c1c), color-stop(100%,#000000));
-	background: -webkit-linear-gradient(top,  #1c1c1c 0%,#000000 100%);
-	background: -o-linear-gradient(top,  #1c1c1c 0%,#000000 100%);
-	background: -ms-linear-gradient(top,  #1c1c1c 0%,#000000 100%);
-	background: linear-gradient(to bottom,  #1c1c1c 0%,#000000 100%);
+	background: #ff33bb;
 }
 header h1 {
 	width: 800px;
@@ -41,7 +35,6 @@ h2 {
 .project-list {
 	width: 50%;
 	float: left;
-	border-style: solid;
 
 }
 .projects li {
@@ -50,7 +43,6 @@ h2 {
 .add-project {
 	width: 50%;
 	float: right;
-	border-style: solid;
 }
 .add-project h2 {
 	margin-top: 0;
@@ -82,18 +74,12 @@ input {
 }
 button {
 	color: #fff;
-	background: #1c1c1c;
-	background: -moz-linear-gradient(top,  #1c1c1c 0%, #000000 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1c1c1c), color-stop(100%,#000000));
-	background: -webkit-linear-gradient(top,  #1c1c1c 0%,#000000 100%);
-	background: -o-linear-gradient(top,  #1c1c1c 0%,#000000 100%);
-	background: -ms-linear-gradient(top,  #1c1c1c 0%,#000000 100%);
-	background: linear-gradient(to bottom,  #1c1c1c 0%,#000000 100%);
+	background: #ff33bb;
 	border: 0;
 	padding: 10px;
 	cursor: pointer;
 	margin: 0 auto;
-	width: 75%;
+	width: 50%;
 	border: 2px solid white;
 	display: block;
 }
@@ -105,7 +91,7 @@ button:active {
 }
 .delete {
 	height: 100%;
-	width: 75%;
+	width: 50%;
 	margin: 0 auto;
 	border: 2px solid white;
 	margin-top: 5%;
