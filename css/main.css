@@ -1,3 +1,6 @@
+[draggable] {
+    user-select: none;
+}
 .group:before, .group:after {content: " "; display: table;} .group:after {clear: both;} .group {*zoom: 1;}
 
 * {
@@ -7,6 +10,7 @@
 }
 
 body {
+	background-color: #b3ffff;
 	padding: 0;
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
@@ -87,6 +91,9 @@ button:active {
 .over {
 	border: 1px dashed #000;
 }
+.cone {
+	text-align: center;
+}
 .delete {
 	width: 440px;
 	height: 30px;
@@ -96,16 +103,33 @@ button:active {
 	margin-top:40px;
 	text-align: center;
 }
-
-.red {
-	color: red;
+.vanilla {
+	background-color: #ffffcc;
 }
-
-.green {
-	color: green;
+.chocolate {
+	background-color: #804000;
 }
-
-.blue {
-	color: blue;
+.strawberry {
+	background-color: #ff6666;
 }
-
+.cherry {
+	background-color: #ff3333;
+}
+.pistachio {
+	background-color: #ccffcc;
+}
+.mint {
+	background-color: #80ff80;
+}
+.oreo {
+	background-color: white;
+}
+.pralines {
+	background-color: #cc7a00;
+}
+.butterscotch {
+	background-color: #995c00;
+}
+.rum {
+	background-color: #bf8040;
+}
