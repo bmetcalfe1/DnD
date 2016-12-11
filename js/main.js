@@ -112,8 +112,7 @@
 		var newContent = title;
 		newItem.innerHTML = newContent;
 		var color = document.getElementById('colorChanger').value;
-		// newItem.style.color = color;  //stays at 4th element
-		newItem.classList.add(color); //stays at 4th element
+		newItem.classList.add(color);
 
 		var list = document.getElementsByTagName('li');
 		if (list.length < 10) {
