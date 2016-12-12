@@ -80,7 +80,7 @@ select {
 }
 input {
 	font-size: 16px;
-	width: 250px;
+	width: 50%;
 	padding: 2.5%;
 	border: 1px solid #ccc;
 	margin: 5%;
@@ -177,6 +177,22 @@ button {
 	width: 100%;
 	float: none;
 	}
+	h2 {
+    font-size: 300%;
+	}
+	button, .delete {
+	font-size: 200%;	
+	}
+	.cone {
+  	border-left: 14vw solid transparent;
+  	border-right: 14vw solid transparent;
+  	border-top: 28vw solid #DDBB74;
+	}
+	.circle {
+	width: 20vw;
+	height: 20vw;
+	}
+
 }
 
 /* Portrait */
@@ -193,6 +209,21 @@ button {
 	width: 100%;
 	float: none;
 	}
+	h2 {
+    font-size: 300%;
+	}
+	button, .delete {
+	font-size: 200%;	
+	}
+	.cone {
+  	border-left: 14vw solid transparent;
+  	border-right: 14vw solid transparent;
+  	border-top: 28vw solid #DDBB74;
+	}
+	.circle {
+	width: 20vw;
+	height: 20vw;
+	}
 }
 
 /* Landscape */
@@ -205,9 +236,24 @@ button {
 	width: 100%;
 	float: none;
 	}
+	h2 {
+    font-size: 300%;
+	}
 	.project-list {
 	width: 100%;
 	float: none;
+	}
+	button, .delete {
+	font-size: 200%;	
+	}
+	.cone {
+  	border-left: 14vw solid transparent;
+  	border-right: 14vw solid transparent;
+  	border-top: 28vw solid #DDBB74;
+	}
+	.circle {
+	width: 20vw;
+	height: 20vw;
 	}
 
 }
@@ -227,6 +273,21 @@ button {
 	width: 100%;
 	float: none;
 	}
+	h2 {
+    font-size: 300%;
+	}
+	button, .delete {
+	font-size: 200%;	
+	}
+	.cone {
+  	border-left: 14vw solid transparent;
+  	border-right: 14vw solid transparent;
+  	border-top: 28vw solid #DDBB74;
+	}
+	.circle {
+	width: 20vw;
+	height: 20vw;
+	}
 
 }
 
@@ -244,6 +305,21 @@ button {
 	width: 100%;
 	float: none;
 	}
+	h2 {
+    font-size: 300%;
+	}
+	button, .delete {
+	font-size: 200%;	
+	}
+	.cone {
+  	border-left: 14vw solid transparent;
+  	border-right: 14vw solid transparent;
+  	border-top: 28vw solid #DDBB74;
+	}
+	.circle {
+	width: 20vw;
+	height: 20vw;
+	}
 }
 
 /* Landscape */
@@ -259,6 +335,21 @@ button {
 	.project-list {
 	width: 100%;
 	float: none;
+	}
+	h2 {
+    font-size: 300%;
+	}
+	button, .delete {
+	font-size: 200%;	
+	}
+	.cone {
+  	border-left: 14vw solid transparent;
+  	border-right: 14vw solid transparent;
+  	border-top: 28vw solid #DDBB74;
+	}
+	.circle {
+	width: 20vw;
+	height: 20vw;
 	}
 
 }
@@ -278,6 +369,21 @@ button {
 	width: 100%;
 	float: none;
 	}
+	h2 {
+    font-size: 300%;
+	}
+	button, .delete {
+	font-size: 200%;	
+	}
+	.cone {
+  	border-left: 14vw solid transparent;
+  	border-right: 14vw solid transparent;
+  	border-top: 28vw solid #DDBB74;
+	}
+	.circle {
+	width: 20vw;
+	height: 20vw;
+	}
 
 }
 
@@ -295,6 +401,21 @@ button {
 	width: 100%;
 	float: none;
 	}
+	h2 {
+    font-size: 300%;
+	}
+	button, .delete {
+	font-size: 200%;	
+	}
+	.cone {
+  	border-left: 14vw solid transparent;
+  	border-right: 14vw solid transparent;
+  	border-top: 28vw solid #DDBB74;
+	}
+	.circle {
+	width: 20vw;
+	height: 20vw;
+	}
 
 }
 
@@ -311,6 +432,21 @@ button {
 	.project-list {
 	width: 100%;
 	float: none;
+	}
+	h2 {
+    font-size: 300%;
+	}
+	button, .delete {
+	font-size: 200%;	
+	}
+	.cone {
+  	border-left: 14vw solid transparent;
+  	border-right: 14vw solid transparent;
+  	border-top: 28vw solid #DDBB74;
+	}
+	.circle {
+	width: 20vw;
+	height: 20vw;
 	}
 
 }
@@ -330,6 +466,21 @@ button {
 	width: 100%;
 	float: none;
 	}
+	h2 {
+    font-size: 300%;
+	}
+	button, .delete {
+	font-size: 200%;	
+	}
+	.cone {
+  	border-left: 14vw solid transparent;
+  	border-right: 14vw solid transparent;
+  	border-top: 28vw solid #DDBB74;
+	}
+	.circle {
+	width: 20vw;
+	height: 20vw;
+	}
 
 }
 
@@ -347,6 +498,21 @@ button {
 	width: 100%;
 	float: none;
 	}
+	h2 {
+    font-size: 300%;
+	}
+	button, .delete {
+	font-size: 200%;	
+	}
+	.cone {
+  	border-left: 14vw solid transparent;
+  	border-right: 14vw solid transparent;
+  	border-top: 28vw solid #DDBB74;
+	}
+	.circle {
+	width: 20vw;
+	height: 20vw;
+	}
 
 }
 
@@ -356,13 +522,28 @@ button {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
-  .add-project {
+  	.add-project {
 	width: 100%;
 	float: none;
 	}
 	.project-list {
 	width: 100%;
 	float: none;
+	}
+	h2 {
+    font-size: 300%;
 	} 
+	button, .delete {
+	font-size: 200%;	
+	}
+	.cone {
+  	border-left: 14vw solid transparent;
+  	border-right: 14vw solid transparent;
+  	border-top: 28vw solid #DDBB74;
+	}
+	.circle {
+	width: 20vw;
+	height: 20vw;
+	}
 
 }
