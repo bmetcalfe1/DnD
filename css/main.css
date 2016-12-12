@@ -117,43 +117,53 @@ button {
 }
 .vanilla {
 /*	background-color: #ffffcc;*/
-	background-image: url(van.jpg);
+	/*background-image: url(van.jpg);*/
+	background-image: url('http://i242.photobucket.com/albums/ff231/bour3/things%20I%20made%20then%20ate/mint-ice-cream-closeup.jpg');
 }
 .chocolate {
 	/*background-color: #804000;*/
-	background-image: url(choco.jpg);
+	/*background-image: url(choco.jpg);*/
+	background-image: url('http://chocolatecouverture.co.uk/wp-content/uploads/2012/10/Chocolate-Week-1-close-up.jpg');
 }
 .strawberry {
 	/*	background-color: #ff6666;*/	
-	background-image: url(cool.jpg);
+	/*background-image: url(cool.jpg);*/
+	background-image: url('http://3.bp.blogspot.com/-u_OtsEsmehg/Uk8lQ84i_MI/AAAAAAAALIg/7OeIJuuuoEc/s1600/hood+strawberry+shortcake+ice+cream+closeup.jpg');
 }
 .cherry {
 	/*background-color: #ff3333;*/
-	background-image: url(cherry.jpg);
+	/*background-image: url(cherry.jpg);*/
+	background-image: url('https://thumbs.dreamstime.com/x/frozen-fruit-ice-cream-background-full-frame-texture-close-up-cherry-pink-purple-creamy-cold-dairy-dessert-68389354.jpg');
 }
 .pistachio {
 	/*background-color: #ccffcc;*/
-	background-image: url(pisty.jpg);
+	/*background-image: url(pisty.jpg);*/
+	background-image: url('https://thumbs.dreamstime.com/z/pistachio-ice-cream-2741188.jpg');
 }
 .mint {
 /*	background-color: #80ff80;*/
-	background-image: url(mint.jpg);
+	/*background-image: url(mint.jpg);*/
+	background-image: url('http://2.bp.blogspot.com/_TZDqRM96lM8/S7eL0GUQwGI/AAAAAAAADvk/nuM4wTLUWNE/w1200-h630-p-nu/mint2.jpg');
 }
 .oreo {
 /*	background-color: white;*/
-	background-image: url(oreo.jpg);
+	/*background-image: url(oreo.jpg);*/
+	background-image: url('http://s3.favim.com/orig/47/cookies-food-ice-cream-oreo-Favim.com-434700.jpg');
 }
 .pralines {
 /*	background-color: #cc7a00;*/
-	background-image: url(pralines.jpg);
+	/*background-image: url(pralines.jpg);*/
+	background-image: url('http://3.bp.blogspot.com/-bLU2j9h9KxE/UxHJcvHlAYI/AAAAAAAAbXk/kQisES16unc/s1600/ben-and-jerrys-scotchy-scotch-scotch-ice-cream-03.JPG');
 }
 .butterscotch {
 	/*background-color: #995c00;*/
-	background-image: url(butter.jpg);
+	/*background-image: url(butter.jpg);*/
+	background-image: url('http://www.ansonmills.com/system/recipes/545/photos/original/Benne_Ice_Cream.jpg?1376854514');
 }
 .rum {
 	/*background-color: #bf8040;*/
-	background-image: url(rum.jpg);
+	/*background-image: url(rum.jpg);*/
+	background-image: url('http://www.pralinesownmade.com/gallery/icecreamflavors/ice-cream-flavors-1016.jpg');
 }
 .cone {
   margin: 0 auto;
