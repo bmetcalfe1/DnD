@@ -1,14 +1,14 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 }
-*:before, *:after{
+*:before, *:after {
 	box-sizing: border-box;
 }
-html, body{
+html, body {
 	min-height: 100%;
 }
 body {
@@ -37,6 +37,9 @@ h2 {
 	float: left;
 
 }
+.projects {
+	margin-top: 5%;
+}
 .projects li {
 	text-align: center;
 }
@@ -48,10 +51,6 @@ h2 {
 	margin-top: 0;
 }
 .add-project p {
-	text-align: center;
-	padding: 10px;
-}
-.add-project button {
 	text-align: center;
 	padding: 10px;
 }
@@ -67,36 +66,47 @@ li {
 	border: 1px solid #ccc;
 	margin-bottom: 3px;
 }
+select {
+    padding: 2.5%;
+}
+#colorChanger {
+	font-size: 16px;
+	margin: 5%;
+}
 input {
+	font-size: 16px;
 	width: 250px;
-	padding: 5px 7px;
+	padding: 2.5%;
 	border: 1px solid #ccc;
+	margin: 5%;
+	margin-top: 10%;
 }
 button {
-	color: #fff;
-	background: #ff33bb;
-	border: 0;
+	font-size: 16px;
 	padding: 10px;
+	height: 100%;
+	width: 50%;
+	color: #fff;
+	border: 2px solid white;
 	cursor: pointer;
 	margin: 0 auto;
+	margin-top: 5%;
+	display: block; /*important*/
+	background: #ff33bb;
+}
+.delete {
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+	height: 100%;
 	width: 50%;
 	border: 2px solid white;
-	display: block;
-}
-button:active {
-	margin: 1px 0 0 1px;
+	margin: 0 auto;
+	margin-top: 5%;
+	background: #ff0000;
 }
 .over {
 	border: 1px dashed #000;
-}
-.delete {
-	height: 100%;
-	width: 50%;
-	margin: 0 auto;
-	border: 2px solid white;
-	margin-top: 5%;
-	text-align: center;
-	background-color: #ff0000;
 }
 .vanilla {
 	background-color: #ffffcc;
