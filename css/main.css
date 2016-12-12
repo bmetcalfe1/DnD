@@ -116,34 +116,44 @@ button {
 	border: 1px dashed #000;
 }
 .vanilla {
-	background-color: #ffffcc;
+/*	background-color: #ffffcc;*/
+	background-image: url(van.jpg);
 }
 .chocolate {
-	background-image: url('http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/sponsored_programs/r_fit/kids/content_images/fitkids_quiz_icecreamquiz_w1.jpg');
+	/*background-color: #804000;*/
+	background-image: url(choco.jpg);
 }
 .strawberry {
-	background-color: #ff6666;
+	/*	background-color: #ff6666;*/	
+	background-image: url(cool.jpg);
 }
 .cherry {
-	background-color: #ff3333;
+	/*background-color: #ff3333;*/
+	background-image: url(cherry.jpg);
 }
 .pistachio {
-	background-color: #ccffcc;
+	/*background-color: #ccffcc;*/
+	background-image: url(pisty.jpg);
 }
 .mint {
-	background-color: #80ff80;
+/*	background-color: #80ff80;*/
+	background-image: url(mint.jpg);
 }
 .oreo {
-	background-color: white;
+/*	background-color: white;*/
+	background-image: url(oreo.jpg);
 }
 .pralines {
-	background-color: #cc7a00;
+/*	background-color: #cc7a00;*/
+	background-image: url(pralines.jpg);
 }
 .butterscotch {
-	background-color: #995c00;
+	/*background-color: #995c00;*/
+	background-image: url(butter.jpg);
 }
 .rum {
-	background-color: #bf8040;
+	/*background-color: #bf8040;*/
+	background-image: url(rum.jpg);
 }
 .cone {
   margin: 0 auto;
